@@ -33,8 +33,7 @@
 
 # Proposta :grey_exclamation:
 
-Você deverá desenvolver uma central de ajuda. Está plataforma deverá possuir uma API REST em node em uma aplicacão front-end em REACT para de comunicar.
-Está plataforma abrira suporte a usuários abrindo ticket de solicitação e comunicacão a um atendende do suporte.
+Você deverá desenvolver uma central de ajuda. Esta plataforma deverá possuir uma API REST em node em uma aplicação front-end em REACT para se comunicar. Esta plataforma abrirá suporte a usuários, com abertura de ticket de solicitação e comunicação a um atendente do suporte.
 
 - Eu como usuário desejo ter um usuário na plataforma para abrir um chamado.
 - Eu como usuário devo ter um ter um botão para acionar um chat para falar com uma atendente e gerar um ticket de solicitação.
