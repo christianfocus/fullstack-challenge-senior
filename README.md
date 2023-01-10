@@ -9,6 +9,7 @@
   - [Requisitos funcionais :white_check_mark:](#requisitos-funcionais-white_check_mark)
     - [Backend :earth_americas:](#backend-earth_americas)
     - [Frontend :computer:](#frontend-computer)
+- [Opcional - Requisitos avançados 	:grey_exclamation:](#opcional---requisitos-avançados-grey_exclamation)
 
 
 
@@ -62,6 +63,7 @@ Você deverá desenvolver uma central de ajuda. Esta plataforma deverá possuir 
 - Utilize alguma estratégia de arquitetura (DDD, etc...)
 - Fique a vontade para utilizar bibliotecas de componentes de mercado ou criar os seus.
 - Utilize **TypeScript**
+- Sua API deverá ter tratamento de erros internos e externos para comportamentos inesperados.
 
 ### Frontend :computer:
 
@@ -71,6 +73,13 @@ Você deverá desenvolver uma central de ajuda. Esta plataforma deverá possuir 
 - Para usuário gerenciador deverá ter uma pagina de listagem de solicitações feitas, atendidas e em execução em tempo real.
 - Para usuário da plataforma deverá existir um local de preenchimento de solicitação de dados para conseguir falar com um usuário gerenciador para atender seu pedido.
 - A tela home do usuário deverá ser listado seus historico de solicitações, número do pedido, status e quem o atendeu.
+- Utilize **TypeScript**
+
+> **Observações:**
+> - Seu código deverá trabalhar com contextos e criacão de hooks feitos especificamente para aplicação
+> - Fique a vontade para trabalhar com frameworks auxiliares ao react.
+> - Fique a vontade para utilizar o cliente HTTP que preferir (Fetch, Axios)
+> - Deverá ter tratamento de erros para não quebrar a pagina ou deixar de ter feedback ao usuário caso haja algum imprevisto.
 
 
 ## Diferenciais
@@ -80,8 +89,14 @@ Você deverá desenvolver uma central de ajuda. Esta plataforma deverá possuir 
 - Semantica.
 
 
+## Opcional - Requisitos avançados 	:grey_exclamation:
+
+Estes requisitos são opcionais no desafio, sinta-se a vontade para deixá-los de lado, a menos que seja solicitado que os cumpra!   
+
+- Criar mecanismo completo de autenticação e autorização (authentication/authorization/etc.) , como OAuth.
+- Mecanismos de login via conta google/facebook ao usuário da plataforma...
+- Criar mecanismo de log e auditoria (quando/como/quem etc.).
+- Hospedar aplicacão em algum lugar e disponibilizar o link.
 
 
-
-
-
+[Voltar ao topo](#desafio-fullstack-earth_americas-computer-iphone)
