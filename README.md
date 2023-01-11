@@ -56,14 +56,12 @@ Você deverá desenvolver uma central de ajuda. Esta plataforma deverá possuir 
 
 - A API deve seguir as boas práticas e padrões de implementação REST.
 - Os dados deve ser salvos em um banco de dados.
-- Escrever os testes para o código e as APIs geradas.
 - Prover documentação para API. (Sugestão OpenAPI/Swagger)
 - Respeitar os protocolos HTTP.
 - Padrões de segurança (token, criptografia).
 - Utilize alguma estratégia de arquitetura (DDD, etc...)
 - Fique a vontade para utilizar bibliotecas de componentes de mercado ou criar os seus.
 - Utilize **TypeScript**
-- Sua API deverá ter tratamento de erros internos e externos para comportamentos inesperados.
 
 ### Frontend :computer:
 
@@ -79,7 +77,6 @@ Você deverá desenvolver uma central de ajuda. Esta plataforma deverá possuir 
 > - Seu código deverá trabalhar com contextos e criacão de hooks feitos especificamente para aplicação
 > - Fique a vontade para trabalhar com frameworks auxiliares ao react.
 > - Fique a vontade para utilizar o cliente HTTP que preferir (Fetch, Axios)
-> - Deverá ter tratamento de erros para não quebrar a pagina ou deixar de ter feedback ao usuário caso haja algum imprevisto.
 
 
 ## Diferenciais
@@ -87,6 +84,8 @@ Você deverá desenvolver uma central de ajuda. Esta plataforma deverá possuir 
 - Utilização de design patterns.
 - Linters e padronização de código.
 - Semantica.
+- Escrever os testes para o código e as APIs geradas.
+- Tratamento de erros personalizados.
 
 
 ## Opcional - Requisitos avançados 	:grey_exclamation:
